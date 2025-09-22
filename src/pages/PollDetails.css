@@ -1,0 +1,30 @@
+.PollDetails {
+  padding: 2rem 1rem;
+  background: var(--bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text);
+}
+
+.PollDetails .title {
+  font-size: clamp(1.75rem, 2vw + 1rem, 2.25rem);
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.PollDetails .list {
+  width: 100%;
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.PollsList .danger {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}

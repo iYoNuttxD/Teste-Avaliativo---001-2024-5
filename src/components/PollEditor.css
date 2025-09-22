@@ -1,0 +1,28 @@
+.PollEditor {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.PollEditor button {
+  background: #dc2626;
+  color: white;
+  border: none;
+  margin: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.PollEditor button:hover {
+  background: #b91c1c;
+  transform: translateY(-1px);
+}
+
+.PollEditor button:active {
+  background: #991b1b;
+  transform: translateY(0);
+}
